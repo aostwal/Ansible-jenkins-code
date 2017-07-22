@@ -37,7 +37,7 @@
       when: "list.stdout.find('JSPDemo') == -1"
 
     - name: Clone config.xml
-      command: git clone https://github.com/swetha1194/hw1-b.git
+      command: git clone https://github.com/aostwal/Ansible-jenkins-code.git
       when: "list.stdout.find('hw1-b') == -1"
 
 
